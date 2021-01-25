@@ -1,0 +1,17 @@
+body{
+    background-color:#efefef;    
+}
+/*Para Modificar el estolo por Id se pone el numeral y el nombre del id 
+y entre yaves las propiedades a cambiar.
+los id son unicos no se pueden repetir
+*/
+#parrafo{
+    color: red;
+}
+/*Para Modificar solo lo por Clase se pone el . y el nombre de la clase 
+y entre yaves las propiedades a cambiar.
+laas clases se pueden repetir
+*/
+.etiqueta{
+    color: #00aa00;
+}
