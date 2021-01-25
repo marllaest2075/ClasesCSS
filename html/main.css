@@ -12,6 +12,37 @@ los id son unicos no se pueden repetir
 y entre yaves las propiedades a cambiar.
 laas clases se pueden repetir
 */
-.etiqueta{
-    color: #00aa00;
+.caja{
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    border-radius: 2px;
+    border-top: solid 0px;
+}
+.header{
+    padding: 10px;
+    border-bottom: solid 1px #eee;
+}
+.contenido{
+    padding: 10px;
+}
+.footer{
+    padding: 10px;
+    border-top: solid 1px #eee;
+}
+
+
+.primario{
+    background-color: #0090ff;
+    border: opx;
+    padding: 5px;
+    color: white;
+}
+
+.secundario{
+    background-color: #aaa;
+    border: opx;
+    padding: 5px;
+    color: white;
 }
