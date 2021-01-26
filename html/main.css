@@ -10,15 +10,25 @@ y entre yaves las propiedades a cambiar.
 laas clases se pueden repetir
 */
 
-ul{
-    list-style-type: none;
+table{
+    width: 100%;
     background-color: white;
-    border: solid 1px #ddd;
-    border-radius: 8px;
-    padding-left: 0px;
+    border-collapse: collapse;
 }
+tr:nth-child(odd){
+   background-color: #e0e0e0;
 
-li{
-    border-bottom: solid 1px #ddd;
-    padding: 15px;
+}
+td{
+    border: 1px solid #ddd;
+    padding-left: 10px;
+}
+table th{
+    background-color: #4caf50;
+    color: white;
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
