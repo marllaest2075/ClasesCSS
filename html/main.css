@@ -10,38 +10,15 @@ y entre yaves las propiedades a cambiar.
 laas clases se pueden repetir
 */
 
-
-p{
-    color: #222fff;
-    text-align: justify;
-    text-indent: 25px;
-    font-family: fantasy;
-    font-style: oblique;
-    font-size: 1.5em;
-    font-weight: bold ;
-}
-
-a{
-    color: hotpink;
-    text-decoration: none;
-    text-transform: capitalize;
-    padding: 20px;
+ul{
+    list-style-type: none;
+    background-color: white;
+    border: solid 1px #ddd;
     border-radius: 8px;
-    background-color: silver;
-    margin: 20px;
+    padding-left: 0px;
 }
 
-a:link{
-    color: pink;
-}
-a:visited{
-    color: rebeccapurple;
-}
-a:active{
-    color: black;
-}
-a:hover{
-    color: yellow;
-    background-color: blue;
-    text-decoration: underline;
+li{
+    border-bottom: solid 1px #ddd;
+    padding: 15px;
 }
